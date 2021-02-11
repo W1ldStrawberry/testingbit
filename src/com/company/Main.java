@@ -29,6 +29,7 @@ public class Main {
         System.out.println("min= "+min);
         System.out.println("max= "+max);
         System.out.println("avg= "+avg);
+        System.out.println("playwithgit");
 
     }
 
