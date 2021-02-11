@@ -31,6 +31,8 @@ public class Main {
         System.out.println("avg= "+avg);
         System.out.println("playwithgit");
         System.out.println("ANDREYEASYKATKA");
+        System.out.println("test");
+
 
     }
 
