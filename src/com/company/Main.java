@@ -37,7 +37,7 @@ public class Main {
         for (int i=0; i<array.length; i++){
             if (array[i]>1){
                 flag = true;
-                for (int j=2; j<array[i]; j++){
+                for (int j=2; j<array[i]/2; j++){
                     if (array[i] % j == 0) {
                         flag = false;
                         break;
