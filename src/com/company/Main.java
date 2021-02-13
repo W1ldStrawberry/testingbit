@@ -30,7 +30,6 @@ public class Main {
              array[j+1]=swap; }
             }
             }
-      //  }
 //Вывод массива
         for (int i=0; i< array.length;i++){
             System.out.print(array[i]+" ");
