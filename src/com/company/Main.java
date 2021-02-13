@@ -8,28 +8,33 @@ public class Main {
         int n = 50;
         int min = 1000;
         int max = -1;
-        double avg = 0;
+        int avg = 0;
+        int k = 0;
         int[] array = new int[n];
         for (int i = 1; i< array.length;i++) {
             array[i] = (int)(Math.random()*(200+1))-100;
         }
 //поиск мин макс и среднего
-        for (int i = 1; i< array.length;i++){
+        for (int i = 0; i< array.length;i++){
             min = Math.min(min,array[i]);
             max = Math.max(max,array[i]);
-            avg += array[i] / array.length;
+            avg += (int)(array[i] / array.length);
         }
+        //сортировка пузырьком
+        //for (int i=1; i< array.length; i++){
+         //   for (j=1; j<i; i++)
+      //  }
 //Вывод массива
-        for (int i=1; i< array.length;i++){
+        for (int i=0; i< array.length;i++){
             System.out.print(array[i]+" ");
-
+            k++;
         }
 //вывод
         System.out.println(" ");
         System.out.println("min= "+min);
         System.out.println("max= "+max);
         System.out.println("avg= "+avg);
-
+        System.out.println("chisel= "+k);
 
     }
 
